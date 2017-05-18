@@ -1,0 +1,48 @@
+"*":
+  autosave:
+    enabled: true
+  core:
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "atom-material-syntax"
+    ]
+  editor:
+    preferredLineLength: 400
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+    tabType: "soft"
+  "exception-reporting":
+    userId: "9a1c1d30-d506-349b-3735-453f0a428769"
+  pigments:
+    ignoredScopes: [
+      "\\.comment"
+      "\\.string \\.text\\.html(.*)\\.string"
+    ]
+  "platformio-ide-terminal":
+    ansiColors:
+      normal:
+        cyan: "#6efff7"
+    iconColors:
+      cyan: "#65fffd"
+    style: {}
+  runner:
+    scope:
+      python: "/usr/local/bin/python3"
+  "tree-view":
+    hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
+".diff.source":
+  editor:
+    preferredLineLength: 400
+    tabLength: 4
+".python.source":
+  editor:
+    showIndentGuide: true
+".python.text.traceback":
+  editor:
+    tabLength: 4
